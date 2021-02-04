@@ -6,7 +6,8 @@
   "types": "dist-types/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist dist-types"
+    "clean": "rm -rf dist dist-types",
+    "test": "npm run clean && npm run build"
   },
   "exports": {
     ".": "./dist/index.js",
