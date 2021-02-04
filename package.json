@@ -1,7 +1,7 @@
 {
-  "name": "typescript-conditional-exports-workaround",
+  "name": "typescript-subpath-exports-workaround",
   "version": "0.1.0",
-  "description": "Workaround for Node.js conditional exports in TypeScript",
+  "description": "Workaround for Node.js subpath exports in TypeScript",
   "main": "dist/index.js",
   "types": "dist-types/index.d.ts",
   "scripts": {
