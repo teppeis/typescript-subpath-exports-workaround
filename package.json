@@ -1,9 +1,9 @@
 {
   "name": "typescript-conditional-exports-workaround",
   "version": "1.0.0",
-  "description": "",
+  "description": "Workaround for Node.js conditional exports in TypeScript",
   "main": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "dist-types/index.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist dist-types"
@@ -14,8 +14,8 @@
   },
   "typesVersions": {
     "*": {
-      "*": [
-        "dist-types/*"
+      "exported": [
+        "dist-types/exported"
       ]
     }
   },
