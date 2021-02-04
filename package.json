@@ -1,6 +1,6 @@
 {
   "name": "typescript-subpath-exports-workaround",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Workaround for Node.js subpath exports in TypeScript",
   "main": "dist/index.js",
   "types": "dist-types/index.d.ts",
