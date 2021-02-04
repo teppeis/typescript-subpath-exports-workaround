@@ -12,7 +12,7 @@ Node.js v12+ extends [package entry points features](https://nodejs.org/api/pack
 
 Use [`typesVersions`](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html#version-selection-with-typesversions) to workaround.
 
-### `package.json`
+#### package.json
 
 ```json
 {
@@ -45,7 +45,7 @@ import "typescript-subpath-exports-workaround/dist/not-exported"
 
 ## Demo
 
-You can install this package.
+You can install and try this package.
 
 ```console
 $ npm i typescript-subpath-exports-workaround
