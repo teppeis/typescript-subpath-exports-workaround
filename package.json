@@ -1,6 +1,6 @@
 {
   "name": "typescript-conditional-exports-workaround",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Workaround for Node.js conditional exports in TypeScript",
   "main": "dist/index.js",
   "types": "dist-types/index.d.ts",
@@ -23,7 +23,12 @@
     "dist",
     "dist-types"
   ],
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "node.js"
+  ],
+  "homepage": "https://github.com/teppeis/typescript-conditional-exports-workaround",
+  "repository": "teppeis/typescript-conditional-exports-workaround",
   "author": "Teppei Sato <teppeis@gmail.com>",
   "license": "MIT",
   "devDependencies": {
