@@ -2,10 +2,14 @@
   "name": "typescript-conditional-exports-workaround",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./foo": "./dist/foo.js"
   },
   "keywords": [],
   "author": "Teppei Sato <teppeis@gmail.com>",
